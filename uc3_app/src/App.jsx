@@ -1,10 +1,12 @@
 import './App.css'
+import Header from './assets/Componentes/Header'
 
 function App() {
+
   return (
-    <>
-      <h1>UC3 App</h1>
-    </>
+    <main className={'fundo'}>
+      <Header />
+    </main>
   )
 }
 
