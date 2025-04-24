@@ -1,5 +1,4 @@
 import Styles from './Header.module.css'
-import fundo from '../img/background.png'
 import logo from '../img/logorua.png'
 
 function Header() {
@@ -13,7 +12,6 @@ function Header() {
                 <a href="">Drip da RUA</a>
                 <a href="">Oficina da RUA</a>
             </nav>
-            {/* <img src={fundo} alt="imagem de fundo" className={Styles.fundo} /> */}
         </header>
     )
 }
