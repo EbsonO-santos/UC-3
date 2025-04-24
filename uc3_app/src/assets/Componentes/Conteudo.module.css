@@ -1,4 +1,13 @@
-marquee{
+.conteudo{
+    position: absolute;
     width: 100%;
+    height: 750px;
+    background-image: url('../img/BACKGROUN.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     
+    & img{
+        width: 100%;
+        height: 100%;
+    }
 }

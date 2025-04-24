@@ -1,15 +1,10 @@
 import Styles from './Conteudo.module.css'
-
-import faixa from '../img/FAIXA.png'
+import background from '../img/background.png'
 function Conteudo (){
     return (
-        
-        <marquee>
-            <img src={faixa} />
-            <img src={faixa} />
-            <img src={faixa} />
-            <img src={faixa} />
-        </marquee>
+        <section className={Styles.conteudo}>
+            <img src={background} alt="" />
+        </section>
     )
 }
 export default Conteudo;
