@@ -1,4 +1,4 @@
-import styles from './Promocao.module.css'
+import Styles from './Promocao.module.css'
 import background from '../img/background.png'
 
 function Promocao() {
