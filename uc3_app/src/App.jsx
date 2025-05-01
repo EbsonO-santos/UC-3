@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './assets/Componentes/Header'
 import Conteudo from './assets/Componentes/Conteudo'
+import Promocao from './assets/Componentes/Promocao'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <main className={'fundo'}>
       <Header />
       <Conteudo />
+      <Promocao />
     </main>
   )
 }
