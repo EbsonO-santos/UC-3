@@ -1,14 +1,13 @@
 import Styles from './Promocao.module.css'
-import background from '../img/background.png'
+import faixa from '../img/FAIXA.png'
 
 function Promocao() {
     return (
-        <section className={Styles.Promocao}>
-            <img src={background} alt="" />
-        </section>
-    )
-
+        <>
+            <section className={Styles.Promocao}></section>
+            <img src={faixa} alt="" />
+        </>
+    );
 }
-
-export default Promocao;
+export default Promocao
 

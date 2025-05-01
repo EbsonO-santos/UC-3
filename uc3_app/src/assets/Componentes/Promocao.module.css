@@ -2,12 +2,13 @@
     position: absolute;
     width: 100%;
     height: 750px;
-    background-image: url('../img/BANNER-RUA-CARROSSEL\ 1.png');
     background-size: cover;
+    background-image: url("../img/fundo_promocao.png");
     background-repeat: no-repeat;
-    
-    & img{
-        width: 100%;
-        height: 100%;
-    }
+    z-index: 100;
+}
+img{
+    width: 100%;
+    height: 100px;
+    background-size: cover;
 }
