@@ -2,6 +2,7 @@ import './App.css'
 import Header from './assets/Componentes/Header'
 import Conteudo from './assets/Componentes/Conteudo'
 import Campeonato from './assets/Componentes/Campeonato'
+import Oficina from './assets/Componentes/Oficina'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Conteudo />
       <Campeonato />
+      <Oficina />
     </main>
   )
 }

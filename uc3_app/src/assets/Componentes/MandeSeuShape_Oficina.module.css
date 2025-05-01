@@ -1,0 +1,61 @@
+/* src/assets/Componentes/MandeSeuShape_Oficina.module.css */
+.mandeseushapeContainer {
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  padding: 30px;
+  background-color: #000; /* Fundo preto para toda a página */
+  color: #fff;
+  height: 400px; /* Altura fixa para o container */
+}
+
+.textContent {
+  text-align: left; /* Alinha o texto à esquerda */
+  margin-right: 40px; /* Espaço entre o texto e a imagem */
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFEA00;
+  font-family: Verdana;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: Impact;
+}
+
+.button {
+  background-color: #FFEA00; /* Cor do botão */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  color: black;
+}
+
+.button:hover {
+  background-color: #ffffff;
+}
+
+.imageContainer {
+  width: 400px; /* Ajuste o tamanho do círculo */
+  height: 400px; /* Ajuste o tamanho do círculo */
+  border-radius: 50%; /* Faz a imagem ficar dentro de um círculo */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

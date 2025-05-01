@@ -1,0 +1,43 @@
+/* src/assets/Componentes/Banner_Oficina.module.css */
+
+.banner {
+    background-image: url('../img/Banner_Oficina.png'); /* Substitua pelo caminho correto da imagem */
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* A altura agora ocupa toda a altura da tela */
+    display: flex;
+    justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+    align-items: center; /* Centraliza o texto verticalmente */
+    padding-left: 50px; /* Espaço à esquerda do texto */
+    color: white;
+  }
+  
+  .bannerText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Garante que o texto fique alinhado à esquerda */
+    font-family: Impact;
+  }
+  
+  .bannerText h1 {
+    font-size:120px; /* Aumenta o tamanho do título */
+    font-weight: bold;
+    margin: 0; /* Remove qualquer margem extra ao redor do título */
+  }
+  
+  .bannerText p {
+    font-size: 80px; /* Ajuste o tamanho do texto conforme necessário */
+    margin: 0; /* Remove a margem do parágrafo para aproximar mais */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .bannerText h1 {
+      font-size: 36px; /* Ajuste o tamanho do título em telas menores */
+    }
+  
+    .bannerText p {
+      font-size: 16px; /* Ajuste o tamanho do texto em telas menores */
+    }
+  }
+  

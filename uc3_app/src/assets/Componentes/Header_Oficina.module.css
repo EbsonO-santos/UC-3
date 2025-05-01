@@ -1,0 +1,92 @@
+/* src/assets/Componentes/Header.module.css */
+.header {
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    font-family: sans-serif;
+  }
+  
+  .topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 100px;
+    gap: 40px; /* distância entre logo, barra e ícones */
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 600px; /* diminui a largura da barra toda */
+}
+
+.searchContainer input {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px; /* deixa bem arredondado */
+  outline: none;
+  width: 100%;
+}
+
+/* .searchContainer button {
+  background: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+} */
+
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav {
+    margin-top: 10px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px; /* Ajuste o valor conforme necessário */
+
+  }
+  
+  .nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .icon {
+    width: 34px;
+    height: 34px;
+  }
+  
+  .icons button {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .icons button:hover {
+    opacity: 0.8; /* efeito ao passar o mouse */
+  }
+  
+  
