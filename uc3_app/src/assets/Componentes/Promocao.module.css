@@ -6,7 +6,7 @@
 .Promocao {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-size: cover;
     background-image: url("../img/fundo_promocao.png");
 }

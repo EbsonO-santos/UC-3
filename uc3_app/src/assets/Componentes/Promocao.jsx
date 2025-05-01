@@ -6,7 +6,7 @@ function Promocao() {
             <section className={Styles.Promocao}></section>
             <section className={Styles.faixa}></section>
         </>
-    );
+    )
 }
 export default Promocao
 
