@@ -3,7 +3,7 @@ import background from '../img/background.png'
 
 function Promocao() {
     return (
-        <section className={Styles.Promocao}>
+        <section className={Styles.promocao}>
             <img src={background} alt="" />
         </section>
     )
